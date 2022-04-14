@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9806c5ee-511e-40c4-a705-61c890451c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{042462fd-1f90-45da-80c2-327af498adf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Window">
+      <UniqueIdentifier>{d98bc43a-4221-4c29-a2c5-b5ee74025ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Interface">
+      <UniqueIdentifier>{64d27182-2e0c-46f6-ac89-134adf9b4d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Systems">
+      <UniqueIdentifier>{b4d5803f-3b14-47d0-830d-d05d495fe3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1477e3ab-247d-4592-ac3f-e182c5a24264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Window\Private">
+      <UniqueIdentifier>{866cc512-3146-49ed-ba68-007fbc90635b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Window\Public">
+      <UniqueIdentifier>{5ac0ea67-90e3-4a67-bb9b-58e19f7578f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Module">
+      <UniqueIdentifier>{f35749e0-cc77-4221-b8d1-e644bb2f04d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Module\Private">
+      <UniqueIdentifier>{74cca8df-69d1-4523-9e96-64f6f49fd12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Module\Public">
+      <UniqueIdentifier>{24492979-e99e-4d56-a6c4-f8daf5f1d50c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="IncludeLib.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Systems\InputSystem.cpp">
+      <Filter>Source\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\TimeSystem.cpp">
+      <Filter>Source\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\GraphicSystem.cpp">
+      <Filter>Source\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window\Private\WindowSystem.cpp">
+      <Filter>Source\Window\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window\Private\Window.cpp">
+      <Filter>Source\Window\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MySystem.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMacro.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Interface\IRenderable.h">
+      <Filter>Source\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Systems\InputSystem.h">
+      <Filter>Source\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Systems\TimeSystem.h">
+      <Filter>Source\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Systems\GraphicSystem.h">
+      <Filter>Source\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunction.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLibIncluder.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Interface\IUpdatable.h">
+      <Filter>Source\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Public\WindowDescription.h">
+      <Filter>Source\Window\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Public\IWindow.h">
+      <Filter>Source\Window\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Public\WindowInfo.h">
+      <Filter>Source\Window\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Public\IWindowFactory.h">
+      <Filter>Source\Window\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Module\Public\IModule.h">
+      <Filter>Source\Module\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Private\WindowSystem.h">
+      <Filter>Source\Window\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Public\IWindowManager.h">
+      <Filter>Source\Window\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Public\IWindowSystem.h">
+      <Filter>Source\Window\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Private\Window.h">
+      <Filter>Source\Window\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

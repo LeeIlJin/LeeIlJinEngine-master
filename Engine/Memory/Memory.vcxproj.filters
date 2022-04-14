@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9806c5ee-511e-40c4-a705-61c890451c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{042462fd-1f90-45da-80c2-327af498adf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Interface">
+      <UniqueIdentifier>{5903c1a5-893c-442e-a092-7fe44335d87a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="IncludeLib.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CAllocator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMemory.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PoolAllocator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StackAllocator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PointListAllocator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Interface\IAllocator.h">
+      <Filter>Source\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryFunction.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LinearAllocator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CAllocator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PoolAllocator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StackAllocator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PointListAllocator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryFunctionImpl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LinearAllocator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

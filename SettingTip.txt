@@ -1,0 +1,9 @@
+//
+정적 라이브러리 프로젝트에서 설정에서 빌드 후 이벤트 에서 명령줄에
+copy /Y "$(TargetDir)$(ProjectName).lib" "$(SolutionDir)..\Bin\$(IntDir)"
+copy /Y "$(TargetDir)$(ProjectName).pdb" "$(SolutionDir)..\Bin\$(IntDir)"
+를 복사해서 덮어씌어주세요.
+
+//
+실행 프로젝트에서 설정에서 디버깅에서 작업 디렉터리를 $(SolutionDir)..\Bin\ 으로 설정해주세요.
+
